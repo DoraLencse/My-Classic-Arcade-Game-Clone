@@ -1,7 +1,23 @@
 frontend-nanodegree-arcade-game
 ===============================
-
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 # My-Classic-Arcade-Game-Clone
+# 1. Running the game:
+This is my classic arcade clone game, which I made as a project within Google - Udacity Front- End Web Dev Nanodegree Program.
+The game is simple, the player should navigate the choosen playing character with arrow keys (left, right, up, down) to the river bank.
+There is also enemies and in case of collision the playing character should start the mission again from bottom of the canvas.
+
+# 2. Extra functions:
+# I. Choose a playing character:
+The player could choose from 3 character for the game to complete the mission.
+
+# II. Collect diamonds and Save the princess' life.
+I added collectable diamonds for the game in order to make it more interesting. I also added a little more fun and added a Princess as a collectable item .
+
+# III. Mobile navigation
+The game is designed for PC or laptop, but I made the design responsive in order to suitable for Tablet or iPad as well. For these device I made a mobile navigation which is displayed just on screen which size is under 1280px.
+
+# IV. Counters
+The game is count the number of life, the collected diamonds and the level (how many times reached the river).
+
+# V. Two type of messages at the end of the game.
+Winner message and Game over message.
