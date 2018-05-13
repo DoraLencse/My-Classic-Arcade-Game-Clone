@@ -224,16 +224,17 @@ var allPrincess = [];
 var princessPosition = [150];
 
 princessPosition.forEach(function(posY) {
-    princess = new Princess(50+Math.floor(Math.random() * 150), posY);
+    princess = new Princess(25+Math.floor(Math.random() * 150), posY);
     allPrincess.push(princess);
 });
 
-var gem;
-var allGems = [];
-var gemsPosition = [80, 200, 280];
+let gem;
+let allGems = [];
+let gemsPosition = [80, 200, 280];
+let randomx = [25, 125, 225, 325, 425];
 
 gemsPosition.forEach(function(posY) {
-    gem = new Gem(100+Math.floor(Math.random() * 300), posY);
+    gem = new Gem(randomx[Math.floor(Math.random() * randomx.length)], posY);
     allGems.push(gem);
 });
 
