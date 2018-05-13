@@ -219,19 +219,21 @@ enemyPosition.forEach(function(posY) {
     allEnemies.push(enemy);
 });
 
+let randomx = [25, 125, 225, 325, 425];
+
 var princess;
 var allPrincess = [];
 var princessPosition = [150];
 
 princessPosition.forEach(function(posY) {
-    princess = new Princess(25+Math.floor(Math.random() * 150), posY);
+    princess = new Princess(randomx[Math.floor(Math.random() * randomx.length)], posY);
     allPrincess.push(princess);
 });
 
 let gem;
 let allGems = [];
 let gemsPosition = [80, 200, 280];
-let randomx = [25, 125, 225, 325, 425];
+
 
 gemsPosition.forEach(function(posY) {
     gem = new Gem(randomx[Math.floor(Math.random() * randomx.length)], posY);
